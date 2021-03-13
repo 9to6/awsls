@@ -122,7 +122,7 @@ func mainExitCode() int {
 		profiles = profilesFromConfig
 	}
 
-	clients, err := aws.NewClientPool(profiles, regions)
+	clients, err := aws.NewClientPool(context.Background(), profiles, regions)
 	if err != nil {
 		fmt.Fprint(os.Stderr, color.RedString("\nError: %s\n", err))
 
