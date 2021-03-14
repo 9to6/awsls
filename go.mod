@@ -52,8 +52,6 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/emr v1.1.1
 	github.com/aws/aws-sdk-go-v2/service/firehose v1.1.1
 	github.com/aws/aws-sdk-go-v2/service/fms v1.1.1
-	github.com/aws/aws-sdk-go-v2/service/forecast v1.1.1 // indirect
-	github.com/aws/aws-sdk-go-v2/service/forecastquery v1.1.1 // indirect
 	github.com/aws/aws-sdk-go-v2/service/fsx v1.1.1
 	github.com/aws/aws-sdk-go-v2/service/gamelift v1.1.1
 	github.com/aws/aws-sdk-go-v2/service/globalaccelerator v1.1.1
@@ -66,7 +64,6 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/kinesis v1.1.1
 	github.com/aws/aws-sdk-go-v2/service/kinesisanalytics v1.1.1
 	github.com/aws/aws-sdk-go-v2/service/kinesisanalyticsv2 v1.1.1
-	github.com/aws/aws-sdk-go-v2/service/kinesisvideosignaling v1.1.1 // indirect
 	github.com/aws/aws-sdk-go-v2/service/kms v1.1.1
 	github.com/aws/aws-sdk-go-v2/service/lambda v1.1.1
 	github.com/aws/aws-sdk-go-v2/service/lexmodelbuildingservice v1.1.1
@@ -81,14 +78,12 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/opsworks v1.1.1
 	github.com/aws/aws-sdk-go-v2/service/qldb v1.1.1
 	github.com/aws/aws-sdk-go-v2/service/rds v1.1.1
-	github.com/aws/aws-sdk-go-v2/service/rdsdata v1.1.1 // indirect
 	github.com/aws/aws-sdk-go-v2/service/redshift v1.1.1
 	github.com/aws/aws-sdk-go-v2/service/route53 v1.1.1
 	github.com/aws/aws-sdk-go-v2/service/route53resolver v1.1.1
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.2.0
 	github.com/aws/aws-sdk-go-v2/service/s3outposts v1.1.2
 	github.com/aws/aws-sdk-go-v2/service/sagemaker v1.1.1
-	github.com/aws/aws-sdk-go-v2/service/sagemakera2iruntime v1.1.1 // indirect
 	github.com/aws/aws-sdk-go-v2/service/secretsmanager v1.1.1
 	github.com/aws/aws-sdk-go-v2/service/securityhub v1.1.1
 	github.com/aws/aws-sdk-go-v2/service/servicecatalog v1.1.1
@@ -101,10 +96,8 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/ssm v1.1.1
 	github.com/aws/aws-sdk-go-v2/service/storagegateway v1.1.1
 	github.com/aws/aws-sdk-go-v2/service/synthetics v1.1.1
-	github.com/aws/aws-sdk-go-v2/service/transcribe v1.1.1 // indirect
 	github.com/aws/aws-sdk-go-v2/service/transfer v1.1.1
 	github.com/aws/aws-sdk-go-v2/service/waf v1.1.1
-	github.com/aws/aws-sdk-go-v2/service/wafregional v1.1.1
 	github.com/aws/aws-sdk-go-v2/service/wafv2 v1.1.1
 	github.com/aws/aws-sdk-go-v2/service/worklink v1.1.1
 	github.com/aws/aws-sdk-go-v2/service/workspaces v1.1.1
@@ -113,7 +106,7 @@ require (
 	github.com/fatih/color v1.10.0
 	github.com/gobwas/glob v0.2.3
 	github.com/gruntwork-io/terratest v0.23.0
-	github.com/jckuester/awstools-lib v0.0.0-20210313203827-844464911ea4
+	github.com/jckuester/awstools-lib v0.0.0-20210314122842-b6f221fc8c37
 	github.com/jckuester/terradozer v0.1.3
 	github.com/onsi/gomega v1.9.0
 	github.com/pkg/errors v0.9.1
